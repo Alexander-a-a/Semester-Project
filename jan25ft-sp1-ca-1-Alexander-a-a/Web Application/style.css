@@ -1,0 +1,409 @@
+/* Navigation bar styling */
+.navbarContent {
+  font-family: Consolas, sans-serif, Verdana;
+  background-color: #0e8ea8;
+  color: #fff !important;
+}
+
+/* Design for the sub menu */
+#subMenu {
+  background-color: #83d1f1;
+}
+
+/* Design for the dropdown */
+#navBar {
+  position: absolute;
+  top: 5px;
+  margin-left: 10px;
+}
+/* Hover and background color */
+.navbarContent:hover {
+  background-color: #17a4c0;
+}
+
+/* Reception heading */
+#h1Reception {
+  font-family: Calibri, sans-serif, Verdana;
+  color: #212529;
+  font-size: 2rem;
+}
+
+/* Staff members heading */
+#h4StaffMembers {
+  font-family: Calibri, sans-serif, Verdana;
+  color: #212529;
+}
+
+/* Main table styling */
+.staff-table {
+  width: auto;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 2px solid #212529;
+}
+
+/* Remove borders from table cells and add consistent padding */
+.staff-table th,
+.staff-table td {
+  border: none;
+  padding: 10px;
+}
+
+/* Add borders and padding to all table headers and cells */
+.staff-table th,
+.staff-table td {
+  border-right: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+  padding: 10px;
+}
+
+/* Remove right border on the last column to avoid double lines */
+.staff-table th:last-child,
+.staff-table td:last-child {
+  border-right: none;
+}
+
+/* Remove bottom border from last row */
+.staff-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styling for Staff header */
+.staff-table th {
+  font-family: Consolas, sans-serif, Verdana;
+  background-color: #0e8ea8;
+  color: #fff;
+}
+
+/* Styling for Staff cells/data */
+.staff-table td {
+  font-family: Calibri, sans-serif, Verdana;
+  background-color: #83d1e1;
+}
+/* Container for staff table and in and out buttons */
+.staff-section {
+  max-width: 900px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Width of staff photo*/
+.staff-img {
+  width: 80px
+}
+
+/* Button font styling */
+#inBtn,
+#outBtn {
+  font-family: Consolas, sans-serif, Verdana;
+}
+
+/* Center the block on the page */
+.table-align-wrapper {
+  text-align: center;
+}
+
+/* Keep width to match table and align content left */
+.table-wrapper {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Adding hover to all green/success buttons */
+#inBtn:hover,
+#addBtn:hover {
+  background-color: #157347;
+  color: white;
+}
+
+/* Adding hover to all red/danger buttons */
+#outBtn:hover,
+#clearBtn:hover {
+  background-color: #bb2d3b;
+  color: white;
+}
+
+/* Schedule header */
+#h4Schedule {
+  font-family: Calibri, sans-serif, Verdana;
+  color: #212529;
+}
+
+/* Schedule table styling */
+.schedule-table {
+  width: auto;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 2px solid #212529;
+}
+
+/* NB! Added custom padding to look like bootstrap cause 5rem is max */
+.pt-6 {
+  padding-top: 6rem;
+}
+
+/* Add borders and padding to all table headers and cells */
+.schedule-table th,
+.schedule-table td {
+  border-right: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+  padding: 10px;
+}
+
+/* Remove right border on the last column to avoid double lines */
+.schedule-table th:last-child,
+.schedule-table td:last-child {
+  border-right: none;
+}
+
+/* Remove bottom border from last row */
+.schedule-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styling for table headers */
+.schedule-table th {
+  font-family: Consolas, sans-serif, Verdana;
+  background-color: #0e8ea8;
+  color: #fff;
+}
+
+/* Styling for table cells/data */
+.schedule-table td {
+  font-family: Calibri, sans-serif, Verdana;
+  background-color: #83d1e1;
+}
+
+/* Centers the entire block (table and button) on the page */
+.table-align-wrapper {
+  text-align: center;
+}
+
+/* Shrinks to fit the width of the table and keeps table content left aligned */
+.table-wrapper {
+  display: inline-block;
+  text-align: left; 
+}
+
+/* Button group for the Add and Clear */
+.addClearButton-group {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+
+
+/* Add button for schedule table */
+.singleGreenBtn-Container {
+  margin: auto;
+  text-align: right;
+  width: fit-content;
+  display: flex;
+  justify-content: flex-end;
+  font-family: Consolas, sans-serif, Verdana;
+}
+
+/* Delivery board header */
+#h4DeliveryBoard {
+  font-family: Calibri, sans-serif, Verdana;
+  color: #212529;
+}
+
+/* Delivery table styling */
+.delivery-table {
+  width: auto;
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 7px;
+  overflow: hidden;
+  border: 2px solid #212529;
+  box-sizing: border-box;
+}
+
+/* Add borders and padding to all table headers and cells */
+.delivery-table th,
+.delivery-table td {
+  border-right: 2px solid #212529;
+  border-bottom: 2px solid #212529;
+  padding: 10px;
+}
+
+/* Remove right border on the last column to avoid double lines */
+.delivery-table th:last-child,
+.delivery-table td:last-child {
+  border-right: none;
+}
+
+/* Remove bottom border from last row */
+.delivery-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Styling for table headers */
+.delivery-table th {
+  font-family: Consolas, sans-serif, Verdana;
+  background-color: #0e8ea8;
+  color: #fff;
+}
+
+/* Styling for table cells/data */
+.delivery-table td {
+  font-family: Calibri, sans-serif, Verdana;
+  background-color: #83d1e1;
+}
+
+
+/* Added to prevent the thick black line at the bottom of table */
+.delivery-table tr:last-child th {
+  border-bottom: none;
+}
+
+/* Centers the full table + button block */
+.table-align-wrapper {
+  text-align: center;
+}
+
+/* Shrinks wrapper to fit the table, keeps table content left-aligned */
+.table-wrapper {
+  display: inline-block;
+  text-align: left;
+}
+
+/* Center the icons for vehicle type */
+.delivery-table td i {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+/* Style for the Clear button */
+#clearBtn {
+  font-family: Consolas, sans-serif, Verdana;
+}
+
+/* Clock display */
+#clock {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: Calibri, sans-serif, Verdana;
+}
+
+
+/* Staff Toast styling */
+.toastContainer{
+  top: 12%;
+  right: 10px;
+  z-index: 1055;
+  position: static;
+  width: 180px;
+  font-family: Calibri, sans-serif, Verdana;
+  margin-bottom: 0.5rem;
+}
+
+.toast {
+  background-color: #bb2d3b !important;
+  color: #fff;
+  opacity: 1 !important;
+}
+
+.toast .toast-staffBodyName,
+.toast .toast-staffBodyLate {
+  text-align: center;
+}
+
+.toast img.staffImg {
+  display: block;
+  margin: 0 auto;
+  padding-top: 2px;
+  width: 90px;
+  height: 80px;
+}
+
+.toast-header {
+  position: relative;
+  padding-right: 1.5rem;
+  border-bottom: none;
+  padding: 0;
+}
+
+.btn-close {
+  position: absolute;
+  top: -1px;
+  right: 7px;
+}
+
+/* Fit 5 staff toasts */
+#toastStaffStackContainer {
+  max-height: 90vh; 
+  overflow-y: auto; 
+}
+
+
+/* Delivery Toast styling */
+.deliveryToastContainer {
+  top: 60%;
+  right: 10px; 
+  left: auto; 
+  z-index: 1055;
+  position: fixed;
+  width: 180px;
+  font-family: Calibri, sans-serif, Verdana;
+  margin-bottom: 0.5rem;
+}
+
+/* Toast background color and text color */
+.deliveryToastContainer .toast {
+  background-color: #bb2d3b !important;
+  color: #fff;
+  opacity: 1 !important;
+}
+
+/* If delivery drivers name is long it wont overlap with the exit btn*/
+.deliveryToastContainer .toast-deliveryBodyName{
+  text-align: center;
+  margin-top: 13px;
+}
+
+/* How late driver is, telephone number and delivery adress */
+.deliveryToastContainer .toast-deliveryBodyLate,
+.deliveryToastContainer .toast-deliveryBodyNumber,
+.deliveryToastContainer .toast-deliveryBodyAdress {
+  text-align: center;
+  padding: 4px 6px;
+}
+
+/* Position and style the toast header; makes room for the close button */
+.deliveryToastContainer .toast-header {
+  position: relative;
+  border-bottom: none;
+  padding: 0;
+}
+
+/*Close button styling */
+.deliveryToastContainer .btn-close {
+  position: absolute;
+  top: -1px;
+  right: 7px;
+}
+
+
+/* Delivery Toast container (stacked from top) */
+#deliveryToastStackContainer {
+  position: fixed;
+  top: 12%;
+  right: 10px;
+  z-index: 1055;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
