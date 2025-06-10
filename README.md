@@ -1,5 +1,4 @@
-My semester Project
+My Semester Project
+This project is a web application designed for receptionists to manage employees and delivery tracking efficiently.
 
-Created a WebPage for the receptionist to use and have control over employees.
-
-The API can take a few seconds to load that is because the API we were provided with was a bit slow 
+⚠️ Note: The API used in this project may take a few seconds to load. This is due to the performance limitations of the provided API.
